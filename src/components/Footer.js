@@ -1,12 +1,17 @@
 import React from 'react';
-// will show copyright and created by wowgr8
+import '../styles/Footer.css';
   // link to foodCart social media
   // possibly hours and address (Visit.js may cover this.)
 
-function Footer() {
-  return (
-    <div>Footer</div>
-  )
-}
+  function Footer() {
+    return (
+      <div className='footer'>
+        <div className='socialMedia'>
 
-export default Footer
+        </div>
+        <p> &copy; 2022 github.com/wowgr8</p>
+      </div>
+    )
+  }
+  
+  export default Footer
