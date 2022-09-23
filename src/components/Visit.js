@@ -5,7 +5,12 @@ import React from 'react';
 
 function Visit() {
   return (
-    <div>Visit</div>
+    <div className='visit' id='visit'>
+      <div className='container'>
+        <h2>Visit Us</h2>
+        
+      </div>
+    </div>
   )
 }
 
