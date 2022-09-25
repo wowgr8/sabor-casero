@@ -1,9 +1,8 @@
 import React from 'react';
-// import '../styles/Footer.css';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
-  // link to foodCart social media
-  // possibly hours and address (Visit.js may cover this.)
+
+  // WIP - add link to foodCart social media and for contacting restaurant above my social media links?  Possibly hours and address above my social media links too? (Visit.js may cover this.)
 
   function Footer() {
     return (
