@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Footer.css';
+// import '../styles/Footer.css';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
   // link to foodCart social media
@@ -7,13 +7,10 @@ import { AiOutlineMail } from 'react-icons/ai';
 
   function Footer() {
     return (
-      <div className='footer'>
-        <div className='socialMedia'>
-          <a href='https://github.com/wowgr8'><BsGithub /></a>
-          <a href='https://www.linkedin.com/in/cesar-aug-lopez/'><BsLinkedin /></a>
-          <a href='mailto:lopez.cesar.aug@gmail.com'><AiOutlineMail /></a>
-        </div>
-        <p> &copy; 2022 github.com/wowgr8</p>
+      <div className="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6">
+
+        <span className="text-sm text-gray-500 sm:text-center">&copy; 2022 <a href='https://github.com/wowgr8' className="hover:underline">github.com/wowgr8™</a>. All Rights Reserved.
+        </span>
       </div>
     )
   }
