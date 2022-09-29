@@ -5,8 +5,8 @@ import React from 'react';
 
 function Visit() {
   return (
-    <div className='visit' id='visit'>
-      <div className='container'>
+    <div name='visit' className='snap-y snap-mandatory w-screen h-screen overflow-scroll'>
+      <div className="bg-cyan-200 w-screen h-screen flex">
         <h2>Visit Us</h2>
         
       </div>
