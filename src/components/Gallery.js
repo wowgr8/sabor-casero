@@ -3,7 +3,9 @@ import React from 'react';
 
 function Gallery() {
   return (
-    <div>Gallery</div>
+    <div name="gallery"className='snap-y snap-mandatory w-screen h-screen overflow-scroll'>
+      <div className="bg-fuchsia-200 w-screen h-screen flex">Gallery</div>
+    </div>
   )
 }
 
