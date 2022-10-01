@@ -26,3 +26,17 @@
 6. [Known Bugs](#bugs)
 7. [Contact Information](#contact)
 8. [License](#license)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+
+## Technologies Used <a id="technologies"></a>  
+
+* React.js
+* JavaScript - JSX
+* Node.js
+* Webpack
+* HTML
+* CSS
+* TailwindCSS
+* Firebase
+* React-Scroll
