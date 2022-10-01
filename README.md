@@ -40,3 +40,9 @@
 * TailwindCSS
 * Firebase
 * React-Scroll
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+
+## Description <a id="description"></a>
+
+A React application for Sabor Casero, a local food truck in Portland, Oregon. The user can see Sabor Casero's menu, location on a map, and hours of operation.
