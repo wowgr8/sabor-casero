@@ -154,3 +154,11 @@ Cesar Lopez:
 * Email: [Lopez.cesar.aug@gmail.com](mailto:lopez.cesar.aug@gmail.com)
 * Github: [wowgr8](https://github.com/wowgr8)
 * LinkedIn: [https://www.linkedin.com/in/cesar-aug-lopez](https://www.linkedin.com/in/cesar-aug-lopez)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+
+## License <a id="license"></a>
+
+_MIT_
+
+Copyright (c) _2022_ _Cesar Lopez_
