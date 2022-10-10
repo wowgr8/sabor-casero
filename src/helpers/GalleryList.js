@@ -1,6 +1,6 @@
 import AguaFresca from '../assets/img/food-facebook/agua-fresca-google.jpg';
 import BirriaConsomme from '../assets/img/food-facebook/birria-y-consomme-yelp.jpeg';
-import CocaConsomme from '../assets/img/food-facebook/consomme-cocacola-google.jpeg';
+import CocaConsomme from '../assets/img/food-facebook/consomme-cocacola-google.jpg';
 import DunkConsomme from '../assets/img/food-facebook/dunk-consomme-yelp.jpeg';
 import MenuIRL from '../assets/img/food-facebook/menu-irl-google.jpg';
 
