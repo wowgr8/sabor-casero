@@ -45,7 +45,7 @@
 
 ## Description <a id="description"></a>
 
-A React application for Sabor Casero, a local food truck in Portland, Oregon. The user can see Sabor Casero's menu, location on a map, and hours of operation.
+A React application for Korita Sabor Casero, a local food truck in Portland, Oregon. The user can see Sabor Casero's menu, location on a map, and hours of operation.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
