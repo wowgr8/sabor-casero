@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 // add import for icons and logo
+// Chance to refactor by creating an array for your links in another file, importing, and looping through them. 
+  // Also, create NavbarStyles.css and create a custom className to clean up this file. 
 
 function Navbar() {
 
