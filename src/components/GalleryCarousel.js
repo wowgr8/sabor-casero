@@ -22,6 +22,10 @@ function GalleryCarousel() {
 
     return (
     <div className="w-full select-none relative">
+        <div className="aspect-w-16 aspect-h-9">
+            <img src={GalleryList[currentIndex].image} alt={GalleryList[currentIndex].alt} />
+        </div>
+
 
     </div>
 
