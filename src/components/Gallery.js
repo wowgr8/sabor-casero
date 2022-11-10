@@ -6,13 +6,8 @@ console.log(GalleryList.map((picture, index) => {return picture.name}));
 
 function Gallery() {
   return (
-    <div name="gallery" className='bg-fuchsia-200'>
+    <div name="gallery" className='bg-fuchsia-200 relative w-screen h-screen'>
       <GalleryCarousel />
-      {/* <div className="">
-        {GalleryList.map((picture, index) => {
-          return <GalleryCarousel id={index} name={picture.name} image={picture.image} alt={picture.alt}/> 
-        })}
-      </div>  */}
     </div>
   )
 }
