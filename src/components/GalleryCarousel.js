@@ -9,7 +9,16 @@ function GalleryCarousel() {
 
     console.log(GalleryList.map((picture, index) => {return picture.name}))
 
+    const handleOnNextClick = () => {
+        count = (count + 1) % GalleryList.length;
+        setCurrentIndex(count);
+    }
 
+    const handleOnPrevClick = () => {
+        const productsLength = GalleryList.length;
+        count = (currentIndex + productsLength - 1) % productsLength;
+        setCurrentIndex(count);
+    };
 
     return (
     <div className="w-full select-none relative">
