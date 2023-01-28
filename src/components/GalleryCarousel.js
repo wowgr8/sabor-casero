@@ -19,9 +19,9 @@ function GalleryCarousel() {
     };
 
     return (
-        <div className="w-full select-none relative">
-            <div className="aspect-w-16 aspect-h-9">
-                <img src={GalleryList[currentIndex].image} alt={GalleryList[currentIndex].alt} />
+        <div className=" absolute top-0 left-0 bottom-0 right-0 overflow-hidden  ">
+            <div className="carousel">
+                <img src={GalleryList[currentIndex].image} alt={GalleryList[currentIndex].alt} className="absolute carousel__image w-full h-full  object-fit: contain " style={{padding: "120px"}} />
             </div>
 
             <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">
