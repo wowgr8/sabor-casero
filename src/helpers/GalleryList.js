@@ -9,6 +9,8 @@ import CamaronTaco from '../assets/img/food-facebook/plated-camaron-taco-google.
 import Pupusa from '../assets/img/food-facebook/plated-oval-pupusa-google.jpg';
 import Pupusa1 from '../assets/img/food-facebook/plated-pupusa-google.jpg';
 import TacoYPupusa from '../assets/img/food-facebook/plated-tacos-y-pupusa-google.jpg';
+import TacoYTamale from '../assets/img/food-facebook/plated-tamale-taco-google.jpg';
+import PupusaTogo from '../assets/img/food-facebook/pupusa-togo-yelp.jpeg';
 
 // Import all images from food-facebook and add to array. 
 
@@ -67,5 +69,15 @@ export const GalleryList = [
     name: "Tacos con pupusa",
     image: TacoYPupusa,
     alt: "Two tacos and a pupusa on a plate"
+  },
+  {
+    name: "Taco and Tamale",
+    image: TacoYTamale,
+    alt: "A taco and tamale on a plate"
+  },
+  {
+    name: "Pupusas ToGo",
+    image: PupusaTogo,
+    alt: "Pupusas in a to-go container"
   },
 ]
