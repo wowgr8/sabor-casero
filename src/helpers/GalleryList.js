@@ -14,6 +14,8 @@ import PupusaTogo from '../assets/img/food-facebook/pupusa-togo-yelp.jpeg';
 import OutsideDining from '../assets/img/food-facebook/quesabirria-outdoortable-yelp.jpeg';
 import QuesaTacoCloseUp from '../assets/img/food-facebook/quessabirria-closeup-yelp.jpeg';
 import TogoQuesaTacoCloseUp from '../assets/img/food-facebook/quessabirria-togo-yelp.jpeg';
+import TwoQuesaTacoCloseUp from '../assets/img/food-facebook/quessatacos-togo-closeup-google.jpg';
+import QuessaRamen from '../assets/img/food-facebook/ramen-birria-togo-google.jpg';
 
 // Import all images from food-facebook and add to array. 
 
@@ -89,13 +91,23 @@ export const GalleryList = [
     alt: "Quesa Birria on an outdoor bench/eating area"
   },
   {
-    name: "Quesa Birra Closeup",
+    name: "Quesa Birria Closeup",
     image: QuesaTacoCloseUp,
     alt: "A close up shot of quesa-birria with consomme"
   },
   {
-    name: "To-go Quesa Birra Closeup",
+    name: "To-go Quesa Birria Closeup",
     image: TogoQuesaTacoCloseUp,
     alt: "A close up shot of quesa-birria with consomme in to-go boxes"
+  },
+  {
+    name: "Two To-go Quesa birrias Closeup",
+    image: TwoQuesaTacoCloseUp,
+    alt: "A close up shot of two quesa-birria with consomme in to-go boxes"
+  },
+  {
+    name: "Quessa taco and ramen birria",
+    image: QuessaRamen,
+    alt: "A quesa taco with ramen birria"
   },
 ]
