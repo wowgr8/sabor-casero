@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Menu from './Menu';
+import Visit from './Visit';
+import Gallery from './Gallery';
+import Hero from './Hero';
 
 function Control() {
   return (
-    <div>Control</div>
+    <main>
+      <Hero />
+      <Menu />
+      <Visit />
+      <Gallery />
+    </main>
   )
 }
 
