@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 function Navbar() {
 
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded fixed w-full top-0 left-0">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         {/* Place holder for logo and home link */}
         <a href="https://flowbite.com/" className="flex items-center">
