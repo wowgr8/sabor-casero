@@ -5,7 +5,7 @@ import Control from './components/Control';
 
 function App() {
   return (
-    <div className="App max-w-screen-xl absolute">
+    <div className="App h-screen flex flex-col">
       <Navbar />
       <Control />
       <Footer />
