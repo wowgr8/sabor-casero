@@ -6,7 +6,7 @@ import Hero from './Hero';
 
 function Control() {
   return (
-    <main>
+    <main className="bg-gray-500 flex-grow">
       <Hero />
       <Menu />
       <Visit />
