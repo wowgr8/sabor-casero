@@ -4,7 +4,6 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 
 let count = 0;
 
-
 function Gallery() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -20,10 +19,14 @@ function Gallery() {
   };
 
   return (
-    <div name="gallery" className='bg-fuchsia-200 relative w-screen h-screen'>
-      <div className=" absolute top-0 left-0 bottom-0 right-0 overflow-hidden  ">
-        <div className="carousel">
-          <img src={GalleryList[currentIndex].image} alt={GalleryList[currentIndex].alt} className="absolute carousel__image w-full h-full  object-fit: contain " style={{padding: "120px"}} />
+    <div name="gallery"  className="bg-fuchsia-200 relative w-screen h-screen">
+      <div className="absolute top-0 left-0 bottom-0 right-0 overflow-hidden">
+        <div className="carousel-container border border-red-900 rounded-lg">
+          <img
+            src={GalleryList[currentIndex].image}
+            alt={GalleryList[currentIndex].alt}
+            className="absolute w-full h-full rounded-lg object-cover"
+          />
         </div>
 
         <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">
