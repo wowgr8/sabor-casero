@@ -21,7 +21,7 @@ function Gallery() {
   return (
     <div name="gallery"  className="bg-fuchsia-200 relative w-screen h-screen">
       <div className="absolute top-0 left-0 bottom-0 right-0 overflow-hidden">
-        <div className="carousel-container border border-red-900 rounded-lg">
+        <div className="carousel-container border rounded-lg">
           <img
             src={GalleryList[currentIndex].image}
             alt={GalleryList[currentIndex].alt}
